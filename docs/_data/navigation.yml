@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "GitHub"
-    url: https://the-ai-alliance.github.io/
+    url: https://the-ai-alliance.github.io/open-agent-hub
     icon: "fab fa-fw fa-github"
 
   # - title: "About"

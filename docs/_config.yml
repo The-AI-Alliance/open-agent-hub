@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Open Agent Hub"
+owner: "The AI Alliance"
 email: contact@thealliance.ai
 description: >- # this means to ignore newlines until "baseurl:"
   Tools, techniques, and domain-specific examples for building enterprise-grade, AI agent applications.
@@ -110,6 +111,10 @@ last_version: V0.1.0
 # rather than default.html, so that the latter file can remain completely 
 # generic across repos, but the range of years can be configurable per repo.
 copyright_years: 2024-2026
+copyright_url: https://thealliance.ai
+
+atom_feed:
+  hide: true
 
 # "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
