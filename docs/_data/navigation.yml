@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "GitHub"
+    url: https://the-ai-alliance.github.io/
+    icon: "fab fa-fw fa-github"
+
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
