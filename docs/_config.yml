@@ -13,9 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+### TODO: Some of the definitions here only apply to websites based on Read the Docs,
+### not Minimal Mistakes. Fix...
+
 title: "Open Agent Hub"
-owner: "The AI Alliance"
-email: contact@thealliance.ai
+owner: 
+  name: "The AI Alliance"
+  website: https://www.aialliance.org
+  email: contact@thealliance.ai
 description: >- # this means to ignore newlines until "baseurl:"
   Tools, techniques, and domain-specific examples for building enterprise-grade, AI agent applications.
 baseurl: "/open-agent-hub" # the subpath of your site.
@@ -30,10 +36,19 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # to this site!
 glossaryurl: https://the-ai-alliance.github.io/glossary/glossary
 
+# Sing up for the newsletter URL:
+newsletter:
+  url: https://share.hsforms.com/2Pz_f9vVHRZailCMJ3kmOFQqmmqo
+
+community:
+  url: https://share.hsforms.com/12dRIKDc5SSGUENOtAstjMgqmmqo
+
 # Use minimal mistakes.
 # See https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+theme_url: https://mademistakes.com/work/jekyll-themes/minimal-mistakes/
 
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the site is built.
@@ -74,19 +89,6 @@ search:
 # Enable or disable heading anchors
 heading_anchors: true
 
-# Aux links for the upper right navigation
-aux_links:
-  "The AI Alliance":
-    - "https://thealliance.ai"
-
-nav_external_links:
-  - title: "The AI Alliance repo for Open Agent Hub"
-    url: "https://github.com/The-AI-Alliance/open-agent-hub"
-    hide_icon: false
-
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
-
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
@@ -104,7 +106,7 @@ back_to_top_text: "Back to the top"
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%Y-%m-%d %H:%M %z" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-last_modified_timestamp: 2025-12-03
+last_modified_timestamp: 2025-12-04
 last_version: V0.1.0
 
 # Custom: Add the range of years for the copyright here. This is done here,
@@ -113,7 +115,7 @@ last_version: V0.1.0
 copyright:
   title: "The AI Alliance"
   years: 2024-2026
-  url: https://thealliance.ai
+  url: https://www.aialliance.org
   target: aia
 
 atom_feed:

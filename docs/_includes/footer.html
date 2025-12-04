@@ -32,4 +32,4 @@
 <div class="page__footer-copyright">&copy; {{ site.copyright.years }} <a href="{{ site.copyright.url | default: site.url }}"
   {% if site.copyright.description %} title="{{ site.copyright.description }}"{% endif %}
   {% if site.copyright.target %} target="{{ site.copyright.target }}"{% endif %}
-  >{{ site.copyright.title | default: site.owner | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow" target="jekyll">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow" target="mm">Minimal Mistakes</a>.</div>
+  >{{ site.copyright.title | default: site.owner.name | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" target="jekyll">Jekyll</a> &amp; <a href="{{ site.theme_url }}" target="mm">Minimal Mistakes</a>.</div>

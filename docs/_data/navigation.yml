@@ -4,9 +4,7 @@ main:
     url: https://github.com/The-AI-Alliance/open-agent-hub
     target: _open_agent_hub_git
     icon_class: "fa-github"
-  - title: "About"
-    url: /about/
   - title: "Get Involved"
     url: /contributing/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: /about/
