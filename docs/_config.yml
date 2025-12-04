@@ -110,8 +110,11 @@ last_version: V0.1.0
 # Custom: Add the range of years for the copyright here. This is done here,
 # rather than default.html, so that the latter file can remain completely 
 # generic across repos, but the range of years can be configurable per repo.
-copyright_years: 2024-2026
-copyright_url: https://thealliance.ai
+copyright:
+  title: "The AI Alliance"
+  years: 2024-2026
+  url: https://thealliance.ai
+  target: aia
 
 atom_feed:
   hide: true
@@ -119,7 +122,7 @@ atom_feed:
 # "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/The-AI-Alliance/REPO_NAME" # the github URL for your repo
+gh_edit_repository: "https://github.com/The-AI-Alliance/open-agent-hub" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs are served from
 gh_edit_source: "docs" # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately

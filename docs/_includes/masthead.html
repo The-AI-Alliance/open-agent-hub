@@ -14,6 +14,9 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
+              {% if nav.icon_class %}
+                <i class="fab fa-fw {{ nav.icon_class }}" aria-hidden="true"></i>
+              {% endif %}
               <a
                 href="{{ link.url | relative_url }}"
                 {% if link.description %} title="{{ link.description }}"{% endif %}

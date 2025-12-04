@@ -1,14 +1,12 @@
 # main links
 main:
   - title: "GitHub"
-    url: https://the-ai-alliance.github.io/open-agent-hub
-    icon: "fab fa-fw fa-github"
-
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+    url: https://github.com/The-AI-Alliance/open-agent-hub
+    target: _open_agent_hub_git
+    icon_class: "fa-github"
+  - title: "About"
+    url: /about/
+  - title: "Get Involved"
+    url: /contributing/
   # - title: "Sitemap"
   #   url: /sitemap/
