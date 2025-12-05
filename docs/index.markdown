@@ -40,7 +40,7 @@ feature_row:
     alt: "mcp-enterprise"
     title: "MCP in the Enterprise"
     excerpt: "A user guide with expert guidance on effective use of the Model Context Protocol."
-    url: "https://the-ai-alliance.github.io/"
+    url: "https://the-ai-alliance.github.io/enterprise-MCP"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/ai-application-testing-500x300.jpg
