@@ -18,7 +18,7 @@ The link may be used as a "default" in various places.
 {% endcomment %}
 <a name="join-this-project"></a>
 
-{% if site.newsletter %}[Sign up for our newsletter]({{ site.newsletter.url }}){:target="newsletter" .btn .btn--primary}{% endif %} {% if site.community %}[Join our community]({{ site.community.url }}){:target="community" .btn .btn--primary}{% endif %}
+{% if site.newsletter %}[Sign up for our newsletter]({{ site.newsletter.url }}){:target="newsletter" .btn .btn--primary .no-glyph}{% endif %} {% if site.community %}[Join our community]({{ site.community.url }}){:target="community" .btn .btn--primary .no-glyph}{% endif %}
 
 # How to Contribute to the Open Agent Hub
 

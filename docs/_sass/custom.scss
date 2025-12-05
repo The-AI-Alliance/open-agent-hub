@@ -6,9 +6,9 @@
  * cause them to be opened in separate windows; for that
  * the anchor tag has to contain a target="foo".
  */
-div.main-content a[href^="http"]::after,
-div.main-content a[href^="https://"]::after,
-div.main-content a[href^="mailto:"]::after
+a[href^="http"]::after,
+a[href^="https://"]::after,
+a[href^="mailto:"]::after
 {
   content: "";
   width: 11px;
@@ -25,8 +25,8 @@ div.main-content a[href^="mailto:"]::after
  * Add the class "no-glyph" to links where you don't want the glyph added,
  * like images that are links.
  */
-div.main-content a[href^="http"].no-glyph::after,
-div.main-content a[href^="https://"].no-glyph::after
+a[href^="http"].no-glyph::after,
+a[href^="https://"].no-glyph::after
 {
   background-image: none  !important ;
   width: 0px !important;

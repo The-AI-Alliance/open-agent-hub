@@ -12,7 +12,7 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
-            <a href="{{ f.url | relative_url }}" class="btn" target="{{ f.alt | "_blank" }}"><img
+            <a href="{{ f.url | relative_url }}" class="btn no-glyph" target="{{ f.alt | "_blank" }}"><img
               src="{{ f.image_path | relative_url }}"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}"></a>
             {% if f.image_caption %}
@@ -33,7 +33,7 @@
           {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}" target="{{ f.alt | "_blank" }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }} no-glyph" target="{{ f.alt | "_blank" }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
         </div>
       </div>
