@@ -17,6 +17,7 @@
 ### TODO: Some of the definitions here only apply to websites based on Read the Docs,
 ### not Minimal Mistakes. Fix...
 
+# See also "author" and "footer" below.
 title: "Open Agent Hub"
 owner: 
   name: "The AI Alliance"
@@ -117,6 +118,44 @@ copyright:
   years: 2024-2026
   url: https://www.aialliance.org
   target: aia
+
+author:
+  name             : "The AI Alliance"
+  avatar           : "/docs/assets/images/ai-alliance.logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A global collaboration for open-source and open-access AI."
+  location         : 
+  email            : contact@thealliance.ai
+  links:
+    - label: "Email"
+      icon:  "fas fa-fw fa-envelope-square"
+      url:   "mailto:contact@thealliance.ai"
+    - label: "Website"
+      icon:  "fas fa-fw fa-link"
+      url:   "https://aialliance.org"
+    - label: "GitHub"
+      icon:  "fab fa-fw fa-github"
+      url:   "https://github.com/The-AI-Alliance"
+    - label: "LinkedIn"
+      icon:  "fab fa-fw fa-linkedin"
+      url:   "https://www.linkedin.com/company/99358574/"
+    - label: "Bluesky"
+      icon:  "fab fa-fw fa-bluesky"
+      url:   "https://bsky.app/profile/aialliance.bsky.social"
+    - label: "YouTube!"
+      icon:  "fab fa-fw fa-youtube"
+      url:   "https://www.youtube.com/@thealliance_ai"
+    - label: "Luma"
+      # icon:  "fab fa-fw fa-luma"
+      url:   "https://luma.com/aialliance"
+    - label: "Twitter"
+      icon:  "fab fa-fw fa-twitter-square"
+      url:   "https://x.com/thealliance_ai"
+    - label: "Facebook"
+      icon:  "fab fa-fw fa-facebook-square"
+      # url:   "https://facebook.com/"
+    - label: "Instagram"
+      icon:  "fab fa-fw fa-instagram"
+      # url:   "https://instagram.com/"
 
 atom_feed:
   hide: true

@@ -1,10 +1,11 @@
 # main links
 main:
-  - title: "GitHub"
-    url: https://github.com/The-AI-Alliance/open-agent-hub
-    target: _open_agent_hub_git
-    icon_class: "fa-github"
   - title: "Get Involved"
     url: /contributing/
   - title: "About"
     url: /about/
+  # Omit the GitHub link to this website. We only care about the project sites!
+  # - title: "GitHub"
+  #   url: https://github.com/The-AI-Alliance/open-agent-hub
+  #   target: _open_agent_hub_git
+  #   icon_class: "fa-github"

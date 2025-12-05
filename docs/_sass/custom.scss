@@ -26,8 +26,17 @@ a[href^="mailto:"]::after
  * like images that are links.
  */
 a[href^="http"].no-glyph::after,
-a[href^="https://"].no-glyph::after
+a[href^="https://"].no-glyph::after,
+a[href^="mailto:"].no-glyph::after
 {
   background-image: none  !important ;
   width: 0px !important;
+}
+
+.left {
+    float: inline-start;
+}
+
+.right {
+    float: inline-end;
 }

@@ -1,21 +1,3 @@
 <!-- start custom footer snippets -->
 
-{% if
-  site.gh_edit_link and
-  site.gh_edit_link_text and
-  site.gh_edit_repository and
-  site.gh_edit_branch and
-  site.gh_edit_view_mode
-%}
-  <div class="page__footer-version">
-    <p>
-      <a href="{{ site.gh_edit_repository }}/{{site.gh_edit_view_mode}}/{{site.gh_edit_branch}}/{{site.gh_edit_source}}/{{ page.path }}" id="edit-this-page" target="_blank">{{ site.gh_edit_link_text }}</a>
-    </p>
-  </div>
-{% endif %}
-
-<div class="page__footer-version">
-{{site.last_version}}, {{site.last_modified_timestamp}}
-</div>
-
 <!-- end custom footer snippets -->

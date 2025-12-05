@@ -1,19 +1,26 @@
+<div class="page__footer-copyright">&copy; {{ site.copyright.years }} <a href="{{ site.copyright.url | default: site.url }}"
+  {% if site.copyright.description %} title="{{ site.copyright.description }}"{% endif %}
+  {% if site.copyright.target %} target="{{ site.copyright.target }}"{% endif %}
+  >{{ site.copyright.title | default: site.owner.name | escape_once | strip }}</a>.
+  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" target="jekyll">Jekyll</a> &amp; <a href="{{ site.theme_url }}" target="mm">Minimal Mistakes</a>
+</div>
+
 {% unless site.atom_feed.hide %}
   {% assign show_atom = true %}
 {% endunless %}
-{% if site.footer.links or show_atom %}
+{% if site.author.links or show_atom %}
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
 
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
+    {% if site.author.links %}
+      {% for link in site.author.links %}
         {% if link.label and link.url %}
           <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"
             {% if link.description %} title="{{ link.description }}"{% endif %}
-            {% if link.target %} target="{{ link.target }}"{% endif %}
+            target="_blank" class="no-glyph"
             ><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label | escape_once | strip }}</a></li>
         {% endif %}
       {% endfor %}
@@ -22,14 +29,25 @@
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
         {% if site.atom_feed.description %} title="{{ site.atom_feed.description }}"{% endif %}
-        {% if site.atom_feed.target %} target="{{ site.atom_feed.target }}"{% endif %}
+        target="_atom" class="no-glyph"
         ><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
   </ul>
 </div>
 {% endif %}
 
-<div class="page__footer-copyright">&copy; {{ site.copyright.years }} <a href="{{ site.copyright.url | default: site.url }}"
-  {% if site.copyright.description %} title="{{ site.copyright.description }}"{% endif %}
-  {% if site.copyright.target %} target="{{ site.copyright.target }}"{% endif %}
-  >{{ site.copyright.title | default: site.owner.name | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" target="jekyll">Jekyll</a> &amp; <a href="{{ site.theme_url }}" target="mm">Minimal Mistakes</a>.</div>
+<div class="page__footer-version">
+  {{site.last_version}}, {{site.last_modified_timestamp}}
+
+  {% if
+    site.gh_edit_link and
+    site.gh_edit_link_text and
+    site.gh_edit_repository and
+    site.gh_edit_branch and
+    site.gh_edit_view_mode
+  %}
+    <span class="right">
+      <a href="{{ site.gh_edit_repository }}/{{site.gh_edit_view_mode}}/{{site.gh_edit_branch}}/{{site.gh_edit_source}}/{{ page.path }}" id="edit-this-page" target="_blank">{{ site.gh_edit_link_text }}</a>
+    </span>
+  {% endif %}
+</div>
