@@ -6,7 +6,7 @@ header:
   overlay_color: "#FEFEFE"
   overlay_image: /assets/images/marketplace1.png
 excerpt: >
-  Tools, techniques, and domain-specific examples for building enterprise-grade, AI agent applications.<br/>
+  A community building AI tools, techniques, and domain-specific examples for enterprise-grade, AI agent applications.<br/>[Bring your project!](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING_PROJECTS.md){:target="community"}
 feature_row:
   - image_path: /assets/images/llama-stack-500x300.jpg
     alt: "llama-stack"
@@ -100,5 +100,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
+
+The following projects address different aspects of building effective AI agents. We welcome your feedback and we encourage you to [help us build them](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="community"}. We also welcome your [suggestions for projects we should add](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING_PROJECTS.md){:target="community"}.
 
 {% include feature_row %}

@@ -7,7 +7,7 @@ header:
   overlay_color: "#FEFEFE"
   overlay_image: /assets/images/marketplace1.png
 excerpt: >
-  How to Get Involved.<br/>
+  We welcome your contributions.
 nav_order: 100
 has_children: false
 ---
@@ -20,13 +20,19 @@ The link may be used as a "default" in various places.
 
 {% if site.newsletter %}[Sign up for our newsletter]({{ site.newsletter.url }}){:target="newsletter" .btn .btn--primary .no-glyph}{% endif %} {% if site.community %}[Join our community]({{ site.community.url }}){:target="community" .btn .btn--primary .no-glyph}{% endif %}
 
-# How to Contribute to the Open Agent Hub
+# Bring Your Project to the Open Agent Hub
 
-We welcome your contributions! Each [hub project]({{site.baseurl}}/) has information about getting involved, such as contributing pull requests.
+The AI landscape continues to evolve rapidly, with tools and techniques, as well as challenges, emerging constantly. Do you have a project that you believe will be valuable to the AI community? Would you like to contribute it to the AI Alliance, either as a _managed_ project we own or a _supported_ project that you continue to own, but get Alliance member help to develop?
+
+Visit [Contributing Projects to the AI Alliance](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING_PROJECTS.md){:target="community"} for more information.
+
+# Join a Hub Project
+
+Each [Hub project]({{site.baseurl}}/) has information about getting involved, such as contributing pull requests.
 
 For general information about contributing to AI Alliance projects, visit the [`community`](https://github.com/The-AI-Alliance/community/){:target="community"} repo, specifically the [`CONTRIBUTING`](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="community"} page for general information about contributing. 
 
-See also the full list of projects [here](https://the-ai-alliance.github.io/){:target="aia-github"} to find others that might interest you.
+See also the full list of projects [here](https://the-ai-alliance.github.io/){:target="aia-github"} to find projects that might interest you.
 
 ## Contributing to the Open Agent Hub Website
 
