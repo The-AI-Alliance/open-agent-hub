@@ -23,7 +23,7 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            <h2 class="archive__item-title">{{ f.title }} {% if f.core_project %}<img src="{{site.baseurl}}/assets/images/favicon-16x16.png" alt="AI Alliance Core Project"/>{% endif %}</h2>
           {% endif %}
 
           {% if f.excerpt %}
