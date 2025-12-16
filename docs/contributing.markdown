@@ -20,6 +20,15 @@ The link may be used as a "default" in various places.
 
 {% if site.newsletter %}[Sign up for our newsletter]({{ site.newsletter.url }}){:target="newsletter" .btn .btn--primary .no-glyph}{% endif %} {% if site.community %}[Join our community]({{ site.community.url }}){:target="community" .btn .btn--primary .no-glyph}{% endif %}
 
+## Quick Links
+
+* Receive our [newsletter](https://share.hsforms.com/2Pz_f9vVHRZailCMJ3kmOFQqmmqo){:target="news"}
+* [Join](https://www.aialliance.org/join){:target="join"} the AI Alliance
+  * Know the specific work group you want to join? [Go here](https://share.hsforms.com/12dRIKDc5SSGUENOtAstjMgqmmqo){:target="join-wg"}
+  * Learn about our [community](https://github.com/The-AI-Alliance/community/){:target="community"}
+* [Submit a project](https://events.thealliance.ai/aia-project){:target="project"} for us to support or adopt ([described below](#bring-your-project-or-use-case-to-the-open-agent-hub)).
+* [Submit a use case](https://qmmqo.share.hsforms.com/2qlmffVx9R8iVNad39JmDPg){:target="usecase"} for your domain. Help us help you build it!
+
 # Try Out a Project
 
 Each [Hub project]({{site.baseurl}}/) has information about installing and using it. Use the project's issues or discussion forum to provide feedback, or [send us email](mailto:contact@thealliance.ai?subject=Feedback on an Open Agent Hub project). (Don't forget to tell us which project!)
@@ -32,11 +41,16 @@ For general information about contributing to AI Alliance projects, visit the [`
 
 See also the full list of projects [here](https://the-ai-alliance.github.io/){:target="aia-github"} to find projects that might interest you.
 
-# Bring Your Project to the Open Agent Hub
+# Bring Your Project or Use Case to the Open Agent Hub
 
-The AI landscape continues to evolve rapidly, with tools and techniques, as well as challenges, emerging constantly. Do you have a project that you believe will be valuable to the AI community? Would you like to contribute it to the AI Alliance, either as a _managed_ project we own or a _supported_ project that you continue to own, but get Alliance member help to develop?
+* [Submit a project](https://events.thealliance.ai/aia-project){:target="project"} for us to support or adopt.
+* [Submit a use case](https://qmmqo.share.hsforms.com/2qlmffVx9R8iVNad39JmDPg){:target="usecase"} for your domain. 
 
-Visit [Contributing Projects to the AI Alliance](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING_PROJECTS.md){:target="community"} for more information or [send us email](mailto:contact@thealliance.ai?subject=A Project Suggestion for the Open Agent Hub).
+The AI landscape continues to evolve rapidly, with tools and techniques, as well as challenges, emerging constantly. Do you have a project that you believe will be valuable to the AI community? Would you like to contribute it to the AI Alliance, either as a _core_ project we own or a _supported_ project that you continue to own, but the Alliance helps you develop and promote?
+
+Also, we want to hear about your domain-specific use cases! Help us help you find the optimal tools and architectures to support your use cases.
+
+Visit our community [Contributing](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="community"} page for more details or [send us email](mailto:contact@thealliance.ai?subject=An idea for the Open Agent Hub).
 
 
 ## Contributing to This Website

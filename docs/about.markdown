@@ -30,4 +30,4 @@ If you have any questions or concerns about this effort, please contact us at [c
 * [More About the AI Alliance]({{ site.owner.website }}/about){:target="aia-about"}
 * [Contact Us](mailto:contact@thealliance.ai?subject=Questions about the AI Alliance) (email)
 * [Sign up for our newsletter]({{ site.newsletter.url }}){:target="newsletter"}
-* Follow us at the sites below.
+* Follow us at the web sites below.
