@@ -117,6 +117,139 @@
   }
 }
 
+
+/*
+   Tags
+   ========================================================================== */
+
+/* For keywords/tags. Adapted from .btn */
+.tag {
+  /* default */
+  display: inline-block;
+  margin-bottom: 0.25em;
+  padding: 0.5em 1em;
+  font-family: $sans-serif;
+  font-size: $type-size-8;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: $border-radius;
+
+  .icon {
+    margin-inline-end: 0.5em;
+  }
+
+  .icon + .hidden {
+    margin-inline-start: -0.5em; /* override for hidden text*/
+  }
+
+  /* tag colors */
+  $tagcolors:
+  (primary, $primary-color),
+  (inverse, #fff),
+  (light-outline, transparent),
+  (success, $success-color),
+  (warning, $warning-color),
+  (danger, $danger-color),
+  (info, $info-color),
+  /* brands */
+  (bluesky, $bluesky-color),
+  (facebook, $facebook-color),
+  (linkedin, $linkedin-color),
+  (mastodon, $mastodon-color),
+  (twitter, $twitter-color),
+  (x, $x-color);
+
+  @each $tagcolor, $color in $tagcolors {
+    &--#{$tagcolor} {
+      @include yiq-contrasted($color);
+      @if ($tagcolor == inverse) {
+        border: 1px solid $border-color;
+      }
+      @if ($tagcolor == light-outline) {
+        border: 1px solid #fff;
+      }
+
+      &:visited {
+        @include yiq-contrasted($color);
+      }
+
+      &:hover {
+        @include yiq-contrasted(mix(#000, $color, 20%));
+      }
+    }
+  }
+
+  /* fills width of parent container */
+  &--block {
+    display: block;
+    width: 100%;
+
+    + .btn--block {
+      margin-top: 0.25em;
+    }
+  }
+
+  /* disabled */
+  &--disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    box-shadow: none;
+    opacity: 0.65;
+  }
+
+  /* extra large tag */
+  &--x-large {
+    font-size: $type-size-4;
+  }
+
+  /* large tag */
+  &--large {
+    font-size: $type-size-5;
+  }
+
+  /* small tag */
+  &--small {
+    font-size: $type-size-7;
+  }
+
+  /* extra small tag */
+  &--x-small {
+    font-size: $type-size-8;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.archive__item-tag {
+/*
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.5em 1em; 
+*/
+  font-family: $sans-serif;
+  font-size: $type-size-8;
+  font-weight: bold;
+/*
+  text-align: center;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: $border-radius;
+  & + p {
+    text-indent: 0;
+  }
+
+  a {
+    position: relative;
+  }
+*/
+}
+
 /*
    List view
    ========================================================================== */

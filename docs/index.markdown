@@ -7,6 +7,17 @@ header:
   overlay_image: /assets/images/marketplace1.png
 excerpt: >
   A community building AI tools, techniques, and domain-specific examples for enterprise-grade, AI agent applications.<br/>[Bring your project _and_ use cases!](#contribute)
+all_tags: [
+  "Education", 
+  "Knowledge Graphs", 
+  "MCP",
+  "Research", 
+  "Safety", 
+  "Test/Eval", 
+  "Tools",
+  "Use Cases"
+] 
+tag_class: "tag--primary"
 feature_row:
   - image_path: /assets/images/llama-stack-500x300.jpg
     alt: "llama-stack"
@@ -14,7 +25,8 @@ feature_row:
     core_project: false
     excerpt: "A streamlined developer experience enabling seamless AI application development. Several Alliance projects use Llama Stack and help drive its evolution."
     url: "https://the-ai-alliance.github.io/#llama-stack-and-llama-stack-agents"
-    btn_class: "btn--primary"
+    tags: ["Tools"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/semiont-500x300.jpg
     alt: "semiont"
@@ -22,7 +34,8 @@ feature_row:
     core_project: true
     excerpt: "The open-source, future-proof framework that enables humans and intelligent agents to co-create shared knowledge — governed by you and built to last."
     url: "https://the-ai-alliance.github.io/semiont/"
-    btn_class: "btn--primary"
+    tags: ["Knowledge Graphs"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/gofannon-500x300.png
     alt: "gofannon"
@@ -30,7 +43,8 @@ feature_row:
     core_project: true
     excerpt: "A web app that helps subject matter experts rapidly prototype AI agents and the web UIs that wrap them. Build flows, preview interactions, and share working agent-driven experiences without having to become a framework specialist."
     url: "https://the-ai-alliance.github.io/gofannon/"
-    btn_class: "btn--primary"
+    tags: ["MCP", "Tools"] 
+    btn_class: "btn--success"
     btn_label: "Learn more" 
   - image_path: /assets/images/mcp-context-forge-logo-500x300.png
     alt: "mcp-context-forge"
@@ -38,7 +52,8 @@ feature_row:
     core_project: false
     excerpt: "Model Context Protocol gateway & proxy - unify REST, MCP, and A2A with federation, virtual servers, retries, security, and an optional admin UI."
     url: "https://ibm.github.io/mcp-context-forge/"
-    btn_class: "btn--primary"
+    tags: ["MCP", "Tools"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/mcp-enterprise-500x300.png
     alt: "mcp-enterprise"
@@ -46,7 +61,8 @@ feature_row:
     core_project: true
     excerpt: "A user guide with expert guidance on effective use of the Model Context Protocol."
     url: "https://the-ai-alliance.github.io/enterprise-MCP"
-    btn_class: "btn--primary"
+    tags: ["Education", "MCP"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/ai-application-testing-500x300.jpg
     alt: "ai-application-testing"
@@ -54,7 +70,8 @@ feature_row:
     core_project: true
     excerpt: "Building the knowledge and tools you need to achieve the same testing confidence for your AI applications that you have for your traditional applications."
     url: "https://the-ai-alliance.github.io/ai-application-testing/"
-    btn_class: "btn--primary"
+    tags: ["Education", "Test/Eval"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/deep-research-agent-500x300.png
     alt: "deep-research-agent"
@@ -62,7 +79,8 @@ feature_row:
     core_project: true
     excerpt: "A powerful demonstration agent for <em>deep research</em> applications."
     url: "https://github.com/The-AI-Alliance/deep-research-agent-for-finance/"
-    btn_class: "btn--primary"
+    tags: ["MCP", "Use Cases"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/dana-logo-500x300.png
     alt: "dana"
@@ -70,7 +88,8 @@ feature_row:
     core_project: false
     excerpt: "The Agent-Native Evolution of AI Development. Beyond AI coding assistants: Write agents that learn, adapt, and improve themselves in production."
     url: "https://aitomatic.github.io/dana/"
-    btn_class: "btn--primary"
+    tags: ["Research", "Tools", "Use Cases"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/allycat-500x300.png
     alt: "allycat"
@@ -78,7 +97,8 @@ feature_row:
     core_project: true
     excerpt: "A full stack, open source ChatBot that uses GenAI LLMs to answer questions about your website."
     url: "https://github.com/The-AI-Alliance/AllyCat/"
-    btn_class: "btn--primary"
+    tags: ["Tools", "Use Cases"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/ai-trust-safety-user-guide-500x300.png
     alt: "ai-trust-safety-user-guide"
@@ -86,7 +106,8 @@ feature_row:
     core_project: true
     excerpt: "An introduction to the broad topic of trustworthy, safe AI."
     url: "https://the-ai-alliance.github.io/trust-safety-user-guide/"
-    btn_class: "btn--primary"
+    tags: ["Education", "Research", "Safety", "Test/Eval"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/doomarena_indiana_jones-500x300.jpg
     alt: "doomarena"
@@ -94,7 +115,8 @@ feature_row:
     core_project: false
     excerpt: "A framework for testing AI agents against evolving security threats."
     url: "https://servicenow.github.io/DoomArena/"
-    btn_class: "btn--primary"
+    tags: ["Research", "Safety", "Test/Eval"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/unitxt-logo-500x300.png
     alt: "unitxt"
@@ -102,7 +124,8 @@ feature_row:
     core_project: false
     excerpt: "A Python library for enterprise-grade evaluation of AI performance, offering the world's largest catalog of tools and data for end-to-end AI benchmarking."
     url: "https://www.unitxt.ai/en/latest/"
-    btn_class: "btn--primary"
+    tags: ["Research", "Safety", "Test/Eval"] 
+    btn_class: "btn--success"
     btn_label: "Learn more"
   - image_path: /assets/images/ai-alliance-icon-500x300.png
     alt: "all-projects"
@@ -110,7 +133,7 @@ feature_row:
     core_project: false
     excerpt: "See all the Alliance projects."
     url: "https://the-ai-alliance.github.io/"
-    btn_class: "btn--primary"
+    btn_class: "btn--success"
     btn_label: "Learn more"
 ---
 
@@ -124,4 +147,9 @@ feature_row:
 > * **Supported Projects** are owned and managed by an AI Alliance member organization with collaborators from other member organizations and beyond. 
 >
 > We also want to [hear about your domain-specific use cases](https://qmmqo.share.hsforms.com/2qlmffVx9R8iVNad39JmDPg){:target="usecases"}. Help us help you build them and learn how best to apply AI to your domain!
+
+<p>
+  <span class="archive__item-tag tag">Tags:</span> {% for tag in page.all_tags %}<span class="archive__item-tag tag {{ page.tag_class }}">{{ tag }}</span> {% endfor %}
+</p>
+
 {% include feature_row %}
