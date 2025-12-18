@@ -36,9 +36,10 @@
             </div>
           {% endif %}
 
-          {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }} no-glyph" target="{{ f.alt | "_blank" }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
+          <p>
+            {% if f.website %}<a href="{{ f.website.url }}" class="btn {{ page.btn_class }} no-glyph" target="{{ f.alt | "_blank" }}{{ f.website.label" | "" }}">{{ f.website.label | default: "Website" }}</a>{% endif %}
+            {% if f.repo %}<a href="{{ f.repo.url }}" class="btn {{ page.btn_class }} no-glyph" target="{{ f.alt | "_blank" }}{{ f.repo.label" | "" }}">{{ f.repo.label | default: "Website" }}</a>{% endif %}
+          </p>
         </div>
       </div>
     </div>
