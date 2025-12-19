@@ -109,7 +109,6 @@ feature_row:
     image_path: /assets/images/dana-logo-500x300.png
     core_project: false
     excerpt: "The Agent-Native Evolution of AI Development. Beyond AI coding assistants: Write agents that learn, adapt, and improve themselves in production."
-    url: "https://aitomatic.github.io/dana/"
     tags: ["Research", "Tools", "Use Cases"] 
     website: 
       label: "Website"
@@ -134,7 +133,6 @@ feature_row:
     image_path: /assets/images/doomarena_indiana_jones-500x300.jpg
     core_project: false
     excerpt: "A framework for testing AI agents against evolving security threats."
-    url: "https://servicenow.github.io/DoomArena/"
     tags: ["Research", "Safety", "Test/Eval"] 
     website: 
       label: "Website"
@@ -156,7 +154,6 @@ feature_row:
     image_path: /assets/images/unitxt-logo-500x300.png
     core_project: false
     excerpt: "A Python library for enterprise-grade evaluation of AI performance, offering the world's largest catalog of tools and data for end-to-end AI benchmarking."
-    url: "https://www.unitxt.ai/en/latest/"
     tags: ["Research", "Safety", "Test/Eval"] 
     website: 
       label: "Website"
