@@ -8,6 +8,7 @@ header:
 excerpt: >
   A community building AI tools, techniques, and domain-specific examples for enterprise-grade, AI agent applications.<br/>[Bring your project _and_ use cases!](#contribute)
 all_tags: [
+  "Agents",
   "Education", 
   "Knowledge Graphs", 
   "MCP",
@@ -25,7 +26,7 @@ feature_row:
     image_path: /assets/images/llama-stack-500x300.jpg
     core_project: false
     excerpt: "A streamlined developer experience enabling seamless AI application development. Several Alliance projects use Llama Stack and help drive its evolution."
-    tags: ["Tools"] 
+    tags: ["Agents", Tools"] 
     website: 
       label: "Website"
       url: "https://the-ai-alliance.github.io/open-agent-hub-projects/#llama-stack-and-llama-stack-agents"
@@ -49,7 +50,7 @@ feature_row:
     image_path: /assets/images/gofannon-500x300.png
     core_project: true
     excerpt: "A web app that helps subject matter experts rapidly prototype AI agents and the web UIs that wrap them. Build flows, preview interactions, and share working agent-driven experiences without having to become a framework specialist."
-    tags: ["MCP", "Tools"] 
+    tags: ["Agents", "MCP", "Tools"] 
     website: 
       label: "Website"
       url: "https://the-ai-alliance.github.io/gofannon/"
@@ -85,7 +86,7 @@ feature_row:
     image_path: /assets/images/ai-application-testing-500x300.jpg
     core_project: true
     excerpt: "Building the knowledge and tools you need to achieve the same testing confidence for your AI applications that you have for your traditional applications."
-    tags: ["Education", "Test/Eval"] 
+    tags: ["Agents", "Education", "Test/Eval"] 
     website: 
       label: "Website"
       url: "https://the-ai-alliance.github.io/ai-application-testing/"
@@ -97,7 +98,7 @@ feature_row:
     image_path: /assets/images/deep-research-agent-500x300.png
     core_project: true
     excerpt: "A powerful demonstration agent for <em>deep research</em> applications."
-    tags: ["MCP", "Use Cases"] 
+    tags: ["Agents", "MCP", "Use Cases"] 
     website: 
       label: "Website"
       url: "https://the-ai-alliance.github.io/deep-research-agent-for-finance/"
@@ -109,7 +110,7 @@ feature_row:
     image_path: /assets/images/dana-logo-500x300.png
     core_project: false
     excerpt: "The Agent-Native Evolution of AI Development. Beyond AI coding assistants: Write agents that learn, adapt, and improve themselves in production."
-    tags: ["Research", "Tools", "Use Cases"] 
+    tags: ["Agents", "Research", "Tools", "Use Cases"] 
     website: 
       label: "Website"
       url: "https://aitomatic.github.io/dana/"
@@ -128,12 +129,21 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/trust-safety-user-guide/"
+  - title: "AgentLab2"
+    alt: "agentlab2"
+    image_path: /assets/images/ai-alliance-icon-500x300.png
+    core_project: true
+    excerpt: "An open-source framework for building and evaluating UI agents."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/AgentLab2/"
   - title: "DoomArena"
     alt: "doomarena"
     image_path: /assets/images/doomarena_indiana_jones-500x300.jpg
     core_project: false
     excerpt: "A framework for testing AI agents against evolving security threats."
-    tags: ["Research", "Safety", "Test/Eval"] 
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
     website: 
       label: "Website"
       url: "https://servicenow.github.io/DoomArena/"
@@ -166,6 +176,7 @@ feature_row:
     image_path: /assets/images/ai-alliance-icon-500x300.png
     core_project: false
     excerpt: "See all the Open Agent Hub projects."
+    tags: ["Agents", "Education", "Knowledge Graphs", "MCP", "Research", "Tools", "Use Cases"]
     website: 
       label: "Website"
       url: "https://the-ai-alliance.github.io/open-agent-hub-projects/"
@@ -174,6 +185,7 @@ feature_row:
     image_path: /assets/images/ai-alliance-icon-500x300.png
     core_project: false
     excerpt: "See all the other AI Alliance initiatives and projects in <a href=\"https://the-ai-alliance.github.io/open-data-and-model-foundry-projects/\" target=\"_blank\">Open Models and Data Foundry</a>, and <a href=\"https://the-ai-alliance.github.io/safety-governance-education-projects/\" target=\"_blank\">AI Safety, Governance, and Education</a>."
+    tags: ["Education", "Knowledge Graphs", "Research", "Safety", "Test/Eval", "Tools", "Use Cases"]
     website:
       label: "Website"
       url: "https://the-ai-alliance.github.io/"
