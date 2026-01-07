@@ -81,11 +81,11 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/enterprise-MCP/"
-  - title: "AI Application Testing"
+  - title: "Testing AI Agent Applications"
     alt: "ai-application-testing"
     image_path: /assets/images/ai-application-testing-500x300.jpg
     core_project: true
-    excerpt: "Building the knowledge and tools you need to achieve the same testing confidence for your AI applications that you have for your traditional applications."
+    excerpt: "Knowledge and tools for testing AI agent applications to the same level of certainty as for traditional applications."
     tags: ["Agents", "Education", "Test/Eval"] 
     website: 
       label: "Website"
