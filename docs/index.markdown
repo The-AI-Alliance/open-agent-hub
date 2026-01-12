@@ -69,7 +69,7 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/ibm/mcp-context-forge/"
-  - title: "MCP in the Enterprise"
+  - title: "MCP (and Beyond) in the Enterprise"
     alt: "mcp-enterprise"
     image_path: /assets/images/mcp-enterprise-500x300.png
     core_project: true
