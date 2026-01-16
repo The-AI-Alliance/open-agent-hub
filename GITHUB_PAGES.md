@@ -71,12 +71,10 @@ By default, `docs/index.markdown` shows a table at the top with the authors of t
 You will find these strings around lines 96-97 in `docs/config.yml`:
 
 ```
-last_edit_time_format: "%Y-%m-%d %H:%M %z" # uses ruby's time format...
-last_modified_timestamp: 2025-07-18
+last_edit_time_format: "%Y-%m-%d" # uses ruby's time format...
+last_modified_date: 2025-07-18
 last_version: V0.2.2
 ```
-
-(Ignore the fact that `last_edit_time_format` includes `%H:%M %z`.) Edit `last_modified_timestamp` and `last_version` as desired.
 
 
 ## Editing Conventions and Tips
