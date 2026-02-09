@@ -21,18 +21,30 @@ all_tags: [
 tag_class: "tag--primary"
 btn_class: "btn--success"
 feature_row:
-  - title: "Llama Stack"
-    alt: "llama-stack"
-    image_path: /assets/images/llama-stack-500x300.jpg
+  - title: "Context Forge"
+    alt: "mcp-context-forge"
+    image_path: /assets/images/mcp-context-forge-logo-500x300.png
     core_project: false
-    excerpt: "A streamlined developer experience enabling seamless AI application development. Several Alliance projects use Llama Stack and help drive its evolution."
-    tags: ["Agents", Tools"] 
+    excerpt: "Agent application server, gateway, and proxy - unifying MCP, A2A, REST, etc. with federation, virtual servers, retries, security, and an optional admin UI."
+    tags: ["MCP", "Tools"] 
     website: 
       label: "Website"
-      url: "https://the-ai-alliance.github.io/open-agent-hub-projects/#llama-stack-and-llama-stack-agents"
+      url: "https://ibm.github.io/mcp-context-forge/"
     repo: 
       label: "GitHub"
-      url: "https://github.com/llamastack/llama-stack/"
+      url: "https://github.com/ibm/mcp-context-forge/"
+  - title: "Deep Research Agent for Finance"
+    alt: "deep-research-agent"
+    image_path: /assets/images/deep-research-agent-500x300.png
+    core_project: true
+    excerpt: "A powerful demonstration agent for <em>deep research</em> applications."
+    tags: ["Agents", "MCP", "Use Cases"] 
+    website: 
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/deep-research-agent-for-finance/"
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/deep-research-agent-for-finance/"
   - title: "Semiont"
     alt: "semiont"
     image_path: /assets/images/semiont-500x300.jpg
@@ -45,30 +57,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/semiont/"
-  - title: "Gofannon"
-    alt: "gofannon"
-    image_path: /assets/images/gofannon-500x300.png
-    core_project: true
-    excerpt: "A web app that helps subject matter experts rapidly prototype AI agents and the web UIs that wrap them. Build flows, preview interactions, and share working agent-driven experiences without having to become a framework specialist."
-    tags: ["Agents", "MCP", "Tools"] 
-    website: 
-      label: "Website"
-      url: "https://the-ai-alliance.github.io/gofannon/"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/gofannon/"
-  - title: "MCP Context Forge"
-    alt: "mcp-context-forge"
-    image_path: /assets/images/mcp-context-forge-logo-500x300.png
-    core_project: false
-    excerpt: "Model Context Protocol gateway & proxy - unify REST, MCP, and A2A with federation, virtual servers, retries, security, and an optional admin UI."
-    tags: ["MCP", "Tools"] 
-    website: 
-      label: "Website"
-      url: "https://ibm.github.io/mcp-context-forge/"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/ibm/mcp-context-forge/"
   - title: "MCP (and Beyond) in the Enterprise"
     alt: "mcp-enterprise"
     image_path: /assets/images/mcp-enterprise-500x300.png
@@ -93,18 +81,18 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/ai-application-testing/"
-  - title: "Deep Research Agent for Finance"
-    alt: "deep-research-agent"
-    image_path: /assets/images/deep-research-agent-500x300.png
+  - title: "Gofannon"
+    alt: "gofannon"
+    image_path: /assets/images/gofannon-500x300.png
     core_project: true
-    excerpt: "A powerful demonstration agent for <em>deep research</em> applications."
-    tags: ["Agents", "MCP", "Use Cases"] 
+    excerpt: "A web app that helps subject matter experts rapidly prototype AI agents and the web UIs that wrap them. Build flows, preview interactions, and share working agent-driven experiences without having to become a framework specialist."
+    tags: ["Agents", "MCP", "Tools"] 
     website: 
       label: "Website"
-      url: "https://the-ai-alliance.github.io/deep-research-agent-for-finance/"
+      url: "https://the-ai-alliance.github.io/gofannon/"
     repo: 
       label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/deep-research-agent-for-finance/"
+      url: "https://github.com/The-AI-Alliance/gofannon/"
   - title: "Dana"
     alt: "dana"
     image_path: /assets/images/dana-logo-500x300.png
@@ -117,6 +105,27 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/aitomatic/dana/"
+  - title: "AgentLab2"
+    alt: "agentlab2"
+    image_path: /assets/images/ai-alliance-icon-500x300.png
+    core_project: true
+    excerpt: "An open-source framework for building and evaluating UI agents."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/AgentLab2/"
+  - title: "Llama Stack"
+    alt: "llama-stack"
+    image_path: /assets/images/llama-stack-500x300.jpg
+    core_project: false
+    excerpt: "A streamlined developer experience enabling seamless AI application development. Several Alliance projects use Llama Stack and help drive its evolution."
+    tags: ["Agents", Tools"] 
+    website: 
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/open-agent-hub-projects/#llama-stack-and-llama-stack-agents"
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/llamastack/llama-stack/"
   - title: "The AI Trust and Safety User Guide"
     alt: "ai-trust-safety-user-guide"
     image_path: /assets/images/ai-trust-safety-user-guide-500x300.png
@@ -129,15 +138,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/trust-safety-user-guide/"
-  - title: "AgentLab2"
-    alt: "agentlab2"
-    image_path: /assets/images/ai-alliance-icon-500x300.png
-    core_project: true
-    excerpt: "An open-source framework for building and evaluating UI agents."
-    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/AgentLab2/"
   - title: "DoomArena"
     alt: "doomarena"
     image_path: /assets/images/doomarena_indiana_jones-500x300.jpg
