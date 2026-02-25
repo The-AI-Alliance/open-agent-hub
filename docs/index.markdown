@@ -33,7 +33,7 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/ibm/mcp-context-forge/"
-  - title: "Deep Research Agent for Finance"
+  - title: "Deep Research Agent for Applications"
     alt: "deep-research-agent"
     image_path: /assets/images/deep-research-agent-500x300.png
     core_project: true
@@ -41,10 +41,10 @@ feature_row:
     tags: ["Agents", "MCP", "Use Cases"] 
     website: 
       label: "Website"
-      url: "https://the-ai-alliance.github.io/deep-research-agent-for-finance/"
+      url: "https://the-ai-alliance.github.io/deep-research-agent-for-applications/"
     repo: 
       label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/deep-research-agent-for-finance/"
+      url: "https://github.com/The-AI-Alliance/deep-research-agent-for-applications/"
   - title: "Semiont"
     alt: "semiont"
     image_path: /assets/images/semiont-500x300.jpg
