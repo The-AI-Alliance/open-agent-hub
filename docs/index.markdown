@@ -105,15 +105,15 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/aitomatic/dana/"
-  - title: "AgentLab2"
-    alt: "agentlab2"
+  - title: "CUBE-Harness"
+    alt: "cube-harness"
     image_path: /assets/images/ai-alliance-icon-500x300.png
     core_project: true
     excerpt: "An open-source framework for building and evaluating UI agents."
     tags: ["Agents", "Research", "Safety", "Test/Eval"] 
     repo: 
       label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/AgentLab2/"
+      url: "https://github.com/The-AI-Alliance/cube-harness/"
   - title: "Llama Stack"
     alt: "llama-stack"
     image_path: /assets/images/llama-stack-500x300.jpg
