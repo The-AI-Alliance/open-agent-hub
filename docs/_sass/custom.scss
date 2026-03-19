@@ -34,9 +34,20 @@ a[href^="mailto:"].no-glyph::after
 }
 
 .left {
-    float: inline-start;
+  float: inline-start;
 }
 
 .right {
-    float: inline-end;
+  float: inline-end;
+}
+
+.feature-image-div {
+  /* width:  500px; */
+  height: 250px;
+}
+
+.feature-image {
+  object-fit: contain;
+  align-items:     center;
+  justify-content: center;
 }

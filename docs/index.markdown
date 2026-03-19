@@ -93,6 +93,24 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/gofannon/"
+  - title: "CUBE Standard"
+    alt: "cube-standard"
+    image_path: /assets/images/cube_standard_banner-500x160.png
+    core_project: true
+    excerpt: "Standardize benchmark wrapping so the community can wrap various otherwise-incompatible benchmarks uniformly and use them everywhere."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/cube-standard/"
+  - title: "CUBE Harness"
+    alt: "cube-harness"
+    image_path: /assets/images/cube_harness_banner-500x160.png
+    core_project: true
+    excerpt: "Drive OSS standards and tools for data curation and evaluation creation for state of the art AI agents."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/cube-harness/"
   - title: "Dana"
     alt: "dana"
     image_path: /assets/images/dana-logo-500x300.png
@@ -105,27 +123,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/aitomatic/dana/"
-  - title: "CUBE-Harness"
-    alt: "cube-harness"
-    image_path: /assets/images/ai-alliance-icon-500x300.png
-    core_project: true
-    excerpt: "An open-source framework for building and evaluating UI agents."
-    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/cube-harness/"
-  - title: "Llama Stack"
-    alt: "llama-stack"
-    image_path: /assets/images/llama-stack-500x300.jpg
-    core_project: false
-    excerpt: "A streamlined developer experience enabling seamless AI application development. Several Alliance projects use Llama Stack and help drive its evolution."
-    tags: ["Agents", Tools"] 
-    website: 
-      label: "Website"
-      url: "https://the-ai-alliance.github.io/open-agent-hub-projects/#llama-stack-and-llama-stack-agents"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/llamastack/llama-stack/"
   - title: "The AI Trust and Safety User Guide"
     alt: "ai-trust-safety-user-guide"
     image_path: /assets/images/ai-trust-safety-user-guide-500x300.png
@@ -159,6 +156,18 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/AllyCat/"
+  - title: "Llama Stack"
+    alt: "llama-stack"
+    image_path: /assets/images/llama-stack-500x300.jpg
+    core_project: false
+    excerpt: "A streamlined developer experience enabling seamless AI application development. Several Alliance projects use Llama Stack and help drive its evolution."
+    tags: ["Agents", Tools"] 
+    website: 
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/open-agent-hub-projects/#llama-stack-and-llama-stack-agents"
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/llamastack/llama-stack/"
   - title: "Unitxt"
     alt: "unitxt"
     image_path: /assets/images/unitxt-logo-500x300.png
