@@ -23,7 +23,7 @@ btn_class: "btn--success"
 feature_row:
   - title: "Context Forge"
     alt: "mcp-context-forge"
-    image_path: /assets/images/mcp-context-forge-logo-500x300.png
+    image_path: /assets/images/contextforge-logo-500x100.png
     core_project: false
     excerpt: "Agent application server, gateway, and proxy - unifying MCP, A2A, REST, etc. with federation, virtual servers, retries, security, and an optional admin UI."
     tags: ["MCP", "Tools"] 
