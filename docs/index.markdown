@@ -45,18 +45,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/deep-research-agent-for-applications/"
-  - title: "Semiont"
-    alt: "semiont"
-    image_path: /assets/images/semiont-500x300.jpg
-    core_project: true
-    excerpt: "The open-source, future-proof framework that enables humans and intelligent agents to co-create shared knowledge — governed by you and built to last."
-    tags: ["Knowledge Graphs"] 
-    website: 
-      label: "Website"
-      url: "https://the-ai-alliance.github.io/semiont/"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/semiont/"
   - title: "MCP (and Beyond) in the Enterprise"
     alt: "mcp-enterprise"
     image_path: /assets/images/mcp-enterprise-500x300.png
@@ -69,6 +57,36 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/enterprise-MCP/"
+  - title: "CUBE Standard"
+    alt: "cube-standard"
+    image_path: /assets/images/cube_standard_banner-500x160.png
+    core_project: true
+    excerpt: "Standardize benchmark wrapping so the community can wrap various otherwise-incompatible benchmarks uniformly and use them everywhere."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/cube-standard/"
+  - title: "CUBE Harness"
+    alt: "cube-harness"
+    image_path: /assets/images/cube_harness_banner-500x160.png
+    core_project: true
+    excerpt: "Drive OSS standards and tools for data curation and evaluation creation for state of the art AI agents."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/cube-harness/"
+  - title: "Semiont"
+    alt: "semiont"
+    image_path: /assets/images/semiont-500x300.jpg
+    core_project: true
+    excerpt: "The open-source, future-proof framework that enables humans and intelligent agents to co-create shared knowledge — governed by you and built to last."
+    tags: ["Knowledge Graphs"] 
+    website: 
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/semiont/"
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/semiont/"
   - title: "Testing AI Agent Applications"
     alt: "ai-application-testing"
     image_path: /assets/images/ai-application-testing-500x300.jpg
@@ -93,24 +111,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/gofannon/"
-  - title: "CUBE Standard"
-    alt: "cube-standard"
-    image_path: /assets/images/cube_standard_banner-500x160.png
-    core_project: true
-    excerpt: "Standardize benchmark wrapping so the community can wrap various otherwise-incompatible benchmarks uniformly and use them everywhere."
-    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/cube-standard/"
-  - title: "CUBE Harness"
-    alt: "cube-harness"
-    image_path: /assets/images/cube_harness_banner-500x160.png
-    core_project: true
-    excerpt: "Drive OSS standards and tools for data curation and evaluation creation for state of the art AI agents."
-    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/cube-harness/"
   - title: "Dana"
     alt: "dana"
     image_path: /assets/images/dana-logo-500x300.png
@@ -168,6 +168,18 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/llamastack/llama-stack/"
+  - title: "CUGA"
+    alt: "cuga"
+    image_path: /assets/images/cuga-light-500x200.png
+    core_project: false
+    excerpt: "An open-source generalist agent framework, purpose-built for enterprise automation, combining the best of foundational agentic patterns such as ReAct, CodeAct, and Planner-Executor into a modular architecture."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
+    website: 
+      label: "Website"
+      url: "https://cuga.dev/"
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/cuga-project/cuga-agent/"
   - title: "Unitxt"
     alt: "unitxt"
     image_path: /assets/images/unitxt-logo-500x300.png
@@ -201,15 +213,14 @@ feature_row:
 ---
 
 {: .notice--success}
-> [The AI Alliance Community](https://aialliance.org){:target="community"} is a non-profit (501(c)(3)) foundation that supports the success of essential open technology and research projects in the AI community with particular focus on data, models, and agents, including their governance and responsible use. We are dedicated to the benefit of AI for _all_ of society - not just industry and not just those who can pay to have a seat at the table. 
+> [The AI Alliance Community](https://aialliance.org){:target="community"} is a non-profit (501(c)(3)) foundation that supports the success of essential open technology and research projects in the AI community with particular focus on data, models, and agents. We are dedicated to the benefit of AI for _all_ of society - not just industry. 
 >
-> <a id="contribute"></a>
-> We don’t just want to [host your project](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="community"}, we want to actively support its development, community growth, and broad adoption! Our unique two-tiered approach of **Core** and **Supported** projects empowers project leaders who are committed to transparency, permissive use licensing, and [new contributors](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="community"}, but without inflexible requirements for IP transfer and rule by committee.
+> Our unique two-tiered approach of **Core** and **Supported** projects empowers vibrant project growth, a commitment to transparency and permissive use licensing, but without inflexible requirements for IP transfer and rule by committee ([project governance](https://www.aialliance.org/governance){:target="gov"}):
 >
-> * **Core Projects** are owned and managed by the AI Alliance. (They are indicated with the <img src="{{site.baseurl}}/assets/images/favicon-16x16.png" alt="AI Alliance icon"/> icon.)
-> * **Supported Projects** are owned and managed by an AI Alliance member organization with collaborators from other member organizations and beyond. 
->
-> We also want to [hear about your domain-specific use cases](https://qmmqo.share.hsforms.com/2qlmffVx9R8iVNad39JmDPg){:target="usecases"}. Help us help you build them and learn how best to apply AI to your domain!
+> * **Core Projects:** owned and managed by the AI Alliance (indicated with the <img src="{{site.baseurl}}/assets/images/favicon-16x16.png" alt="AI Alliance icon"/> icon).
+> * **Supported Projects:** owned and managed by an AI Alliance member organization with collaborators. 
+> 
+> All of the projects welcome [new contributors](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="contrib"}. 
 
 <p>
   <span class="archive__item-tag tag">Tags:</span> {% for tag in page.all_tags %}<span class="archive__item-tag tag {{ page.tag_class }}">{{ tag }}</span> {% endfor %}
