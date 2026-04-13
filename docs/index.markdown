@@ -77,7 +77,7 @@ feature_row:
       url: "https://github.com/The-AI-Alliance/cube-harness/"
   - title: "CUBE Registry"
     alt: "cube-registry"
-    image_path: /assets/images/cube_harness_banner-500x160.png
+    image_path: /assets/images/cube_standard_banner-500x160.png
     core_project: true
     excerpt: "The CUBE Registry is a community-maintained index of benchmarks that implement the CUBE standard. Any CUBE-compliant evaluation platform or training harness can discover and run registered benchmarks without custom integration."
     tags: ["Agents", "Research", "Safety", "Test/Eval"] 
