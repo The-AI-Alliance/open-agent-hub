@@ -45,18 +45,18 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/deep-research-agent-for-applications/"
-  - title: "MCP (and Beyond) in the Enterprise"
-    alt: "mcp-enterprise"
-    image_path: /assets/images/mcp-enterprise-500x300.png
+  - title: "Semiont"
+    alt: "semiont"
+    image_path: /assets/images/semiont-500x300.jpg
     core_project: true
-    excerpt: "A user guide with expert guidance on effective use of the Model Context Protocol."
-    tags: ["Education", "MCP"] 
+    excerpt: "The open-source, future-proof framework that enables humans and intelligent agents to co-create shared knowledge — governed by you and built to last."
+    tags: ["Knowledge Graphs"] 
     website: 
       label: "Website"
-      url: "https://the-ai-alliance.github.io/enterprise-MCP/"
+      url: "https://the-ai-alliance.github.io/semiont/"
     repo: 
       label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/enterprise-MCP/"
+      url: "https://github.com/The-AI-Alliance/semiont/"
   - title: "CUBE Standard"
     alt: "cube-standard"
     image_path: /assets/images/cube_standard_banner-500x160.png
@@ -75,18 +75,15 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/cube-harness/"
-  - title: "Semiont"
-    alt: "semiont"
-    image_path: /assets/images/semiont-500x300.jpg
+  - title: "CUBE Registry"
+    alt: "cube-registry"
+    image_path: /assets/images/cube_harness_banner-500x160.png
     core_project: true
-    excerpt: "The open-source, future-proof framework that enables humans and intelligent agents to co-create shared knowledge — governed by you and built to last."
-    tags: ["Knowledge Graphs"] 
-    website: 
-      label: "Website"
-      url: "https://the-ai-alliance.github.io/semiont/"
+    excerpt: "The CUBE Registry is a community-maintained index of benchmarks that implement the CUBE standard. Any CUBE-compliant evaluation platform or training harness can discover and run registered benchmarks without custom integration."
+    tags: ["Agents", "Research", "Safety", "Test/Eval"] 
     repo: 
       label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/semiont/"
+      url: "https://github.com/The-AI-Alliance/cube-registry/"
   - title: "Testing AI Agent Applications"
     alt: "ai-application-testing"
     image_path: /assets/images/ai-application-testing-500x300.jpg
@@ -99,6 +96,18 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/ai-application-testing/"
+  - title: "MCP (and Beyond) in the Enterprise"
+    alt: "mcp-enterprise"
+    image_path: /assets/images/mcp-enterprise-500x300.png
+    core_project: true
+    excerpt: "A user guide with expert guidance on effective use of the Model Context Protocol."
+    tags: ["Education", "MCP"] 
+    website: 
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/enterprise-MCP/"
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/enterprise-MCP/"
   - title: "Gofannon"
     alt: "gofannon"
     image_path: /assets/images/gofannon-500x300.png
