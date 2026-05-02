@@ -33,18 +33,15 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/ibm/mcp-context-forge/"
-  - title: "Deep Research Agent for Applications"
-    alt: "deep-research-agent"
-    image_path: /assets/images/deep-research-agent-500x300.png
+  - title: "Validated Patterns"
+    alt: "validated-patterns"
+    image_path: /assets/images/validated-patterns.png
     core_project: true
-    excerpt: "A powerful demonstration agent for <em>deep research</em> applications."
-    tags: ["Agents", "MCP", "Use Cases"] 
+    excerpt: "A curated collection of <em>validated</em> pattern for AI, other applications, and infrastructure"
+    tags: ["Tools", "Use Cases"] 
     website: 
       label: "Website"
-      url: "https://the-ai-alliance.github.io/deep-research-agent-for-applications/"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/deep-research-agent-for-applications/"
+      url: "https://validatedpatterns.io/search/?query=AI"
   - title: "Semiont"
     alt: "semiont"
     image_path: /assets/images/semiont-500x300.jpg
@@ -84,6 +81,18 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/cube-registry/"
+  - title: "Deep Research Agent for Applications"
+    alt: "deep-research-agent"
+    image_path: /assets/images/deep-research-agent-500x300.png
+    core_project: true
+    excerpt: "A powerful demonstration agent for <em>deep research</em> applications."
+    tags: ["Agents", "MCP", "Use Cases"] 
+    website: 
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/deep-research-agent-for-applications/"
+    repo: 
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/deep-research-agent-for-applications/"
   - title: "Testing AI Agent Applications"
     alt: "ai-application-testing"
     image_path: /assets/images/ai-application-testing-500x300.jpg

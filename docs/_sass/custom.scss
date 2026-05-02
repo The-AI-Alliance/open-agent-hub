@@ -44,6 +44,8 @@ a[href^="mailto:"].no-glyph::after
 .feature-image-div {
   /* width:  500px; */
   height: 250px;
+  align-items:     center;
+  justify-content: center;
 }
 
 .feature-image {

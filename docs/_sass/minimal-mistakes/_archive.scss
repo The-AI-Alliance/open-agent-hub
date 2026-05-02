@@ -20,7 +20,7 @@
 
 .archive__item {
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 
   a {
     position: relative;
@@ -381,13 +381,13 @@
 
 .feature__item {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: .5em;
   font-size: 1.125em;
   border: 4px solid $border-color;
 
   @include breakpoint($small) {
     float: inline-start;
-    margin-bottom: 0;
+    margin-bottom: .5em;
     width: span(4 of 12);
 
     &:nth-child(3n + 1) {

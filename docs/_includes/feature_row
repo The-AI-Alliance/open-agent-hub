@@ -43,10 +43,10 @@
             </div>
           {% endif %}
 
-          <p>
+          <div id="buttons">
             {% if f.website %}<a href="{{ f.website.url }}" class="btn {{ page.btn_class }} no-glyph" target="{{ f.alt | "_blank" }}{{ f.website.label" | "" }}">{{ f.website.label | default: "Website" }}</a>{% endif %}
             {% if f.repo %}<a href="{{ f.repo.url }}" class="btn {{ page.btn_class }} no-glyph" target="{{ f.alt | "_blank" }}{{ f.repo.label" | "" }}">{{ f.repo.label | default: "Website" }}</a>{% endif %}
-          </p>
+          </div>
         </div>
       </div>
     </div>
