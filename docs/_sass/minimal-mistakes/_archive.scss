@@ -372,7 +372,7 @@
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 10px solid $border-color; 
 
   .archive__item-title {
     margin-bottom: 0;
@@ -383,6 +383,7 @@
   position: relative;
   margin-bottom: 2em;
   font-size: 1.125em;
+  border: 4px solid $border-color;
 
   @include breakpoint($small) {
     float: inline-start;
