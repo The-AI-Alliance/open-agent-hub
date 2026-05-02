@@ -36,7 +36,7 @@ feature_row:
   - title: "Validated Patterns"
     alt: "validated-patterns"
     image_path: /assets/images/validated-patterns.png
-    core_project: true
+    core_project: false
     excerpt: "A curated collection of <em>validated</em> pattern for AI, other applications, and infrastructure"
     tags: ["Tools", "Use Cases"] 
     website: 
