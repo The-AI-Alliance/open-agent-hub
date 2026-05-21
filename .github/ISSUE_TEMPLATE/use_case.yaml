@@ -2,7 +2,7 @@ name: A Use Case to Implement
 description: A complete use case we should implement
 title: "[Use Case] "  
 labels: "use case"
-assignees: [deanwampler,AF-IBM,jolson-ibm,adampingel,andreagreggo2]
+assignees: [deanwampler,AF-IBM,jolson-ibm,adampingel]
 projects: [The-AI-Alliance/41]
 body:
 - type: checkboxes
