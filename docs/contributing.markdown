@@ -23,7 +23,7 @@ The link may be used as a "default" in various places.
 ## Quick Links
 
 * Receive our [newsletter](https://share.hsforms.com/2Pz_f9vVHRZailCMJ3kmOFQqmmqo){:target="news"}
-* [Join](https://www.aialliance.org/join){:target="join"} the AI Alliance
+* [Join](https://www.thealliance.ai/join){:target="join"} the AI Alliance
   * Know the specific work group you want to join? [Go here](https://share.hsforms.com/12dRIKDc5SSGUENOtAstjMgqmmqo){:target="join-wg"}
   * Learn about our [community](https://github.com/The-AI-Alliance/community/){:target="community"}
 * [Submit a project](https://events.thealliance.ai/aia-project){:target="project"} for us to support or adopt ([described below](#bring-your-project-or-use-case-to-the-open-agent-hub)).

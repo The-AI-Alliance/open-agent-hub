@@ -231,9 +231,9 @@ feature_row:
 ---
 
 {: .notice--success}
-> [The AI Alliance Community](https://aialliance.org){:target="community"} is a non-profit (501(c)(3)) foundation that supports the success of essential open technology and research projects in the AI community with particular focus on data, models, and agents. We are dedicated to the benefit of AI for _all_ of society - not just industry. 
+> [The AI Alliance Community](https://thealliance.ai){:target="community"} is a non-profit (501(c)(3)) foundation that supports the success of essential open technology and research projects in the AI community with particular focus on data, models, and agents. We are dedicated to the benefit of AI for _all_ of society - not just industry. 
 >
-> Our unique two-tiered approach of **Core** and **Supported** projects empowers vibrant project growth, a commitment to transparency and permissive use licensing, but without inflexible requirements for IP transfer and rule by committee ([project governance](https://www.aialliance.org/governance){:target="gov"}):
+> Our unique two-tiered approach of **Core** and **Supported** projects empowers vibrant project growth, a commitment to transparency and permissive use licensing, but without inflexible requirements for IP transfer and rule by committee ([project governance](https://www.thealliance.ai/governance){:target="gov"}):
 >
 > * **Core Projects:** owned and managed by the AI Alliance (indicated with the <img src="{{site.baseurl}}/assets/images/favicon-16x16.png" alt="AI Alliance icon"/> icon).
 > * **Supported Projects:** owned and managed by an AI Alliance member organization with collaborators. 
