@@ -31,7 +31,7 @@ The link may be used as a "default" in various places.
 
 # Try Out a Project
 
-Each [Hub project]({{site.baseurl}}/) has information about installing and using it. Use the project's issues or discussion forum to provide feedback, or [send us email](mailto:contact@thealliance.ai?subject=Feedback on an Open Agent Hub project). (Don't forget to tell us which project!)
+Each [Hub project]({{site.baseurl}}/) has information about installing and using it. Use the project's issues or discussion forum to provide feedback, or [send us email](mailto:contact@thealliance.ai?subject=Feedback on an Agents and Applications website). (Don't forget to tell us which project!)
 
 # Collaborate on a Hub Project
 
@@ -41,7 +41,7 @@ For general information about contributing to AI Alliance projects, visit the [`
 
 See also the full list of projects [here](https://the-ai-alliance.github.io/){:target="aia-github"} to find projects that might interest you.
 
-# Bring Your Project or Use Case to the Open Agent Hub
+# Bring Your Project or Use Case to the Agents and Applications Website
 
 * [Submit a project](https://events.thealliance.ai/aia-project){:target="project"} for us to support or adopt.
 * [Submit a use case](https://qmmqo.share.hsforms.com/2qlmffVx9R8iVNad39JmDPg){:target="usecase"} for your domain. 
@@ -50,7 +50,7 @@ The AI landscape continues to evolve rapidly, with tools and techniques, as well
 
 Also, we want to hear about your domain-specific use cases! Help us help you find the optimal tools and architectures to support your use cases.
 
-Visit our community [Contributing](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="community"} page for more details or [send us email](mailto:contact@thealliance.ai?subject=An idea for the Open Agent Hub).
+Visit our community [Contributing](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="community"} page for more details or [send us email](mailto:contact@thealliance.ai?subject=An idea for the Agents and Applications website).
 
 
 ## Contributing to This Website
@@ -63,5 +63,5 @@ Every page on this website has an _Edit this page on GitHub_ link to the corresp
 
 You can also post [discussion topics](https://github.com/The-AI-Alliance/open-agent-hub/discussions){:target="discussions"} and [issues](https://github.com/The-AI-Alliance/open-agent-hub/issues){:target="issues"}. See also the [project board](https://github.com/orgs/The-AI-Alliance/projects/41){:target="dashboard"}.
 
-Finally, you can send your suggestions via [email](mailto:contact@thealliance.ai?subject=Suggestions for the Open Agent Hub).
+Finally, you can send your suggestions via [email](mailto:contact@thealliance.ai?subject=Suggestions for the Agents and Applications website).
 

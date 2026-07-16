@@ -1,10 +1,10 @@
 ![The AI Alliance banner](https://the-ai-alliance.github.io/assets/images/ai-alliance-logo-horiz-pos-blue-cmyk-trans.png)
 
-# README for Open Agent Hub
+# README for Agents and Applications Website
 
 [Published Documentation](https://the-ai-alliance.github.io/open-agent-hub/)
 
-This repo contains the code and documentation for The AI Alliance's Open Agent Hub, an initiative to create and nurture tools, techniques, and domain-specific examples for building enterprise-grade, AI agent applications. 
+This repo contains the website code for The AI Alliance's Agents and Applications website, which catalogs various tools and domain-specific examples for building enterprise-grade, AI agent applications.
 
 See the [documentation](https://the-ai-alliance.github.io/open-agent-hub/) for details. The rest of this README provides information for contributors, developers, and users of this project repo.
 

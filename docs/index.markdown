@@ -6,7 +6,7 @@ header:
   overlay_color: "#FEFEFE"
   overlay_image: /assets/images/marketplace1.png
 excerpt: >
-  A community building AI tools, techniques, and domain-specific examples for enterprise-grade, AI agent applications.<br/>[Bring your project _and_ use cases!](#contribute)
+  A catalog of tools and domain-specific examples for enterprise-grade, AI agent applications.<br/>[Bring your project _and_ use cases!](#contribute)
 all_tags: [
   "Agents",
   "Education", 
@@ -214,7 +214,7 @@ feature_row:
     alt: "all-agent-hub-projects"
     image_path: /assets/images/ai-alliance-icon-500x300.png
     core_project: false
-    excerpt: "See all the Open Agent Hub projects."
+    excerpt: "See all the Agents and Applications projects."
     tags: ["Agents", "Education", "Knowledge Graphs", "MCP", "Research", "Tools", "Use Cases"]
     website: 
       label: "Website"
@@ -233,12 +233,7 @@ feature_row:
 {: .notice--success}
 > [The AI Alliance Community](https://thealliance.ai){:target="community"} is a non-profit (501(c)(3)) foundation that supports the success of essential open technology and research projects in the AI community with particular focus on data, models, and agents. We are dedicated to the benefit of AI for _all_ of society - not just industry. 
 >
-> Our unique two-tiered approach of **Core** and **Supported** projects empowers vibrant project growth, a commitment to transparency and permissive use licensing, but without inflexible requirements for IP transfer and rule by committee ([project governance](https://www.thealliance.ai/governance){:target="gov"}):
->
-> * **Core Projects:** owned and managed by the AI Alliance (indicated with the <img src="{{site.baseurl}}/assets/images/favicon-16x16.png" alt="AI Alliance icon"/> icon).
-> * **Supported Projects:** owned and managed by an AI Alliance member organization with collaborators. 
-> 
-> All of the projects welcome [new contributors](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md){:target="contrib"}. 
+> Our unique two-tiered approach of **Core** and **Supported** projects empowers vibrant project growth, a commitment to transparency and permissive use licensing, but without inflexible requirements for IP transfer and rule by committee ([project governance](https://www.thealliance.ai/governance){:target="gov"}). See [this description](https://the-ai-alliance.github.io/#other-projects-from-our-community){:target="aia"} for more details.
 
 <p>
   <span class="archive__item-tag tag">Tags:</span> {% for tag in page.all_tags %}<span class="archive__item-tag tag {{ page.tag_class }}">{{ tag }}</span> {% endfor %}
