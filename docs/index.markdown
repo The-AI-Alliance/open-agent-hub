@@ -21,6 +21,30 @@ all_tags: [
 tag_class: "tag--primary"
 btn_class: "btn--success"
 feature_row:
+  - title: "Semiont"
+    alt: "semiont"
+    image_path: /assets/images/semiont-500x300.jpg
+    core_project: true
+    excerpt: "The open-source, future-proof framework that enables humans and intelligent agents to co-create shared knowledge — governed by you and built to last."
+    tags: ["Knowledge Graphs"]
+    website:
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/semiont/"
+    repo:
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/semiont/"
+  - title: "Testing AI Agent Applications"
+    alt: "ai-application-testing"
+    image_path: /assets/images/ai-application-testing-500x300.jpg
+    core_project: true
+    excerpt: "Knowledge and tools for testing AI agent applications to the same level of certainty as for traditional applications."
+    tags: ["Agents", "Education", "Test/Eval"]
+    website:
+      label: "Website"
+      url: "https://the-ai-alliance.github.io/ai-application-testing/"
+    repo:
+      label: "GitHub"
+      url: "https://github.com/The-AI-Alliance/ai-application-testing/"
   - title: "Context Forge"
     alt: "mcp-context-forge"
     image_path: /assets/images/contextforge-logo-500x100.png
@@ -33,27 +57,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/ibm/mcp-context-forge/"
-  - title: "Validated Patterns"
-    alt: "validated-patterns"
-    image_path: /assets/images/validated-patterns.png
-    core_project: false
-    excerpt: "A curated collection of <em>validated</em> pattern for AI, other applications, and infrastructure"
-    tags: ["Tools", "Use Cases"] 
-    website: 
-      label: "Website"
-      url: "https://validatedpatterns.io/search/?query=AI"
-  - title: "Semiont"
-    alt: "semiont"
-    image_path: /assets/images/semiont-500x300.jpg
-    core_project: true
-    excerpt: "The open-source, future-proof framework that enables humans and intelligent agents to co-create shared knowledge — governed by you and built to last."
-    tags: ["Knowledge Graphs"] 
-    website: 
-      label: "Website"
-      url: "https://the-ai-alliance.github.io/semiont/"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/semiont/"
   - title: "CUBE Standard"
     alt: "cube-standard"
     image_path: /assets/images/cube_standard_banner-500x160.png
@@ -93,18 +96,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/deep-research-agent-for-applications/"
-  - title: "Testing AI Agent Applications"
-    alt: "ai-application-testing"
-    image_path: /assets/images/ai-application-testing-500x300.jpg
-    core_project: true
-    excerpt: "Knowledge and tools for testing AI agent applications to the same level of certainty as for traditional applications."
-    tags: ["Agents", "Education", "Test/Eval"] 
-    website: 
-      label: "Website"
-      url: "https://the-ai-alliance.github.io/ai-application-testing/"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/The-AI-Alliance/ai-application-testing/"
   - title: "MCP (and Beyond) in the Enterprise"
     alt: "mcp-enterprise"
     image_path: /assets/images/mcp-enterprise-500x300.png
@@ -117,6 +108,15 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/enterprise-MCP/"
+  - title: "Validated Patterns"
+    alt: "validated-patterns"
+    image_path: /assets/images/validated-patterns.png
+    core_project: false
+    excerpt: "A curated collection of <em>validated</em> pattern for AI, other applications, and infrastructure"
+    tags: ["Tools", "Use Cases"]
+    website:
+      label: "Website"
+      url: "https://validatedpatterns.io/search/?query=AI"
   - title: "Gofannon"
     alt: "gofannon"
     image_path: /assets/images/gofannon-500x300.png
@@ -174,18 +174,6 @@ feature_row:
     repo: 
       label: "GitHub"
       url: "https://github.com/The-AI-Alliance/AllyCat/"
-  - title: "Llama Stack"
-    alt: "llama-stack"
-    image_path: /assets/images/llama-stack-500x300.jpg
-    core_project: false
-    excerpt: "A streamlined developer experience enabling seamless AI application development. Several Alliance projects use Llama Stack and help drive its evolution."
-    tags: ["Agents", Tools"] 
-    website: 
-      label: "Website"
-      url: "https://the-ai-alliance.github.io/open-agent-hub-projects/#llama-stack-and-llama-stack-agents"
-    repo: 
-      label: "GitHub"
-      url: "https://github.com/llamastack/llama-stack/"
   - title: "CUGA"
     alt: "cuga"
     image_path: /assets/images/cuga-light-500x200.png
@@ -231,7 +219,7 @@ feature_row:
 ---
 
 {: .notice--success}
-> [The AI Alliance Community](https://thealliance.ai){:target="community"} is a non-profit (501(c)(3)) foundation that supports the success of essential open technology and research projects in the AI community with particular focus on data, models, and agents. We are dedicated to the benefit of AI for _all_ of society - not just industry. 
+> [The AI Alliance](https://thealliance.ai){:target="community"} supports projects for open AI technologies and research. We are dedicated to the benefit of AI for _all_ of society - not just industry.
 >
 > Our unique two-tiered approach of **Core** and **Supported** projects empowers vibrant project growth, a commitment to transparency and permissive use licensing, but without inflexible requirements for IP transfer and rule by committee ([project governance](https://www.thealliance.ai/governance){:target="gov"}). See [this description](https://the-ai-alliance.github.io/#other-projects-from-our-community){:target="aia"} for more details.
 
