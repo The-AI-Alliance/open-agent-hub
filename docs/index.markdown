@@ -219,9 +219,9 @@ feature_row:
 ---
 
 {: .notice--success}
-> [The AI Alliance](https://thealliance.ai){:target="community"} supports projects for open AI technologies and research. We are dedicated to the benefit of AI for _all_ of society - not just industry.
+> [The AI Alliance](https://thealliance.ai){:target="aia"} supports projects for open AI technologies and research. We are dedicated to the benefit of AI for _all_ of society and _all_ cultures.
 >
-> Our unique two-tiered approach of **Core** and **Supported** projects empowers vibrant project growth, a commitment to transparency and permissive use licensing, but without inflexible requirements for IP transfer and rule by committee ([project governance](https://www.thealliance.ai/governance){:target="gov"}). See [this description](https://the-ai-alliance.github.io/#other-projects-from-our-community){:target="aia"} for more details.
+> This site describes projects specific to AI application development, including agentic applications. We have built a portfolio of projects in various areas. They are indicated with the <img src="{{site.baseurl}}/assets/images/favicon-16x16.png" alt="AI Alliance icon"/> icon here. We also describe notable independent projects that our members have developed, which fill key needs in the AI ecosystem. Go [here](https://the-ai-alliance.github.io/){:target="github"} to see all our projects.
 
 <p>
   <span class="archive__item-tag tag">Tags:</span> {% for tag in page.all_tags %}<span class="archive__item-tag tag {{ page.tag_class }}">{{ tag }}</span> {% endfor %}
